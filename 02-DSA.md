@@ -2,7 +2,7 @@
 
 ## يعني إيه DSA بالبلدي؟
 
-الـ **DSA** هي المكون المسئول عن إدارة عمليات النسخ الاحتياطي واسترجاع البيانات للـDatabases في Teradata ... و العمليات دي ليها اسم بيتقال و هو عمليات الـ **Backup_and_Restore (BAR)** .
+الـ **DSA** هي المكون المسئول عن إدارة عمليات النسخ الاحتياطي واسترجاع البيانات للـDatabases في Teradata ... و العمليات دي ليها اسم بيتقال و هو عمليات الـ **Backup_and_Restore (BAR)** 
 
 ---
 
@@ -11,10 +11,10 @@
 بيتم تقسيم التشغيل لنوعين أساسيين على حسب مكان التخزين:
 
 1. **لـ DSU (Data_Stream_Utility):**
-   وده لما بنكون بنعمل الـ Backup بتاعنا على الـ **Cloud** (زي AWS, Azure, أو GCP).
+   وده لما بنكون بنعمل الـ Backup بتاعنا على الـ **Cloud** (زي AWS, Azure, أو GCP)
 
 2. **لـ DSE (Data_Stream_Engine):**
-   وده في الـ **On-Premises / Local** لما بنستخدم أجهزة وتطبيقات تخزين خارجية كـ NetBackup أو كـ Dell_Data_Domain أو الـ Tape_Drives.
+   وده في الـ **On-Premises / Local** لما بنستخدم أجهزة وتطبيقات تخزين خارجية كـ NetBackup أو كـ Dell_Data_Domain أو الـ Tape_Drives
 
 ---
 
